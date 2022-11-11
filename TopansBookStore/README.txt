@@ -8,3 +8,4 @@
 01:31pm - Commented ssl port line in json settings, try to runn it now.
 01:32pm - opening perfectly in the browser now with different port.
 01:34pm - looking for a bootswatch theme, i'll head back here after choosing one.
+01:35pm - Chosse the lux theme and replaced its bootstrap file
