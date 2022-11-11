@@ -10,3 +10,4 @@
 01:34pm - looking for a bootswatch theme, i'll head back here after choosing one.
 01:35pm - selected the lux theme and replaced its bootstrap file.
 01:38pm - replaced site.css with the one that was given on blackboard.
+01:43pm - Changed bootstrap file name in head tag, editied some nav bootstrap classes to reflect the theme.
