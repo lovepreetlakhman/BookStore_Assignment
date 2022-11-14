@@ -16,3 +16,5 @@
 02:11pm - run the application , working all good 
 01:15pm - added the css and javascript code in _Layout.cshtml  
 02:21pm - added the dropdown menu ran the application , everything is working 
+02:25pm - created 3 new project names Topansbooks.DataAcess,TopansBooks.Models and TopansBooks.Utility
+02:32pm - moved the data folder into dataccess folder , deleted the migration folder , added the new pakages in the dataAccess folder
