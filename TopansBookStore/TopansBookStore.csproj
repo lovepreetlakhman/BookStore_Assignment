@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TopansBooks.DataAccess\TopansBooks.DataAccess.csproj" />
+    <ProjectReference Include="..\TopansBooks.Models\TopansBooks.Models.csproj" />
   </ItemGroup>
 
 </Project>
