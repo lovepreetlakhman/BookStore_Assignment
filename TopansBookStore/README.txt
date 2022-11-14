@@ -15,3 +15,4 @@
 2022/11/14
 02:11pm - run the application , working all good 
 01:15pm - added the css and javascript code in _Layout.cshtml  
+02:21pm - added the dropdown menu ran the application , everything is working 
