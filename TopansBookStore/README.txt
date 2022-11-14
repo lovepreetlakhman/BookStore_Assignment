@@ -11,3 +11,7 @@
 01:35pm - selected the lux theme and replaced its bootstrap file.
 01:38pm - replaced site.css with the one that was given on blackboard.
 01:43pm - Changed bootstrap file name in head tag, editied some nav bootstrap classes to reflect the theme.
+
+2022/11/14
+02:11pm - run the application , working all good 
+01:15pm - added the css and javascript code in _Layout.cshtml  
