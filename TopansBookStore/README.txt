@@ -22,4 +22,5 @@
 02:41pm - ran the application got so many reference error , 
 solved it by renaming the namespace and adding the reference for it 
 02:46pm - added the models in the .Models folder , changed the name of errorviewmodel to view model , added refernce and changed the namespace of .ViewModels 
-02:53 - updated the Error.cshtml 
+02:53pm - updated the Error.cshtml 
+03:06pm - added an SD.cs  class in the .Utility and added customers area in the Areas folder and changed the layout path for area 
