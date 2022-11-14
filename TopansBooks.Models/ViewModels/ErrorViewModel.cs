@@ -2,7 +2,7 @@ using System;
 
 namespace TopansBookStore.Models.ViewModels
 {
-    public class ViewModel
+    public class ErrorViewModel
     {
         public string RequestId { get; set; }
 

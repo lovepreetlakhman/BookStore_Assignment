@@ -22,3 +22,4 @@
 02:41pm - ran the application got so many reference error , 
 solved it by renaming the namespace and adding the reference for it 
 02:46pm - added the models in the .Models folder , changed the name of errorviewmodel to view model , added refernce and changed the namespace of .ViewModels 
+02:53 - updated the Error.cshtml 
