@@ -19,3 +19,5 @@
 02:25pm - created 3 new project names Topansbooks.DataAcess,TopansBooks.Models and TopansBooks.Utility
 02:32pm - moved the data folder into dataccess folder , deleted the migration folder , added the new pakages in the dataAccess folder
 02:36pm - deleted the class1.cs files 
+02:41pm - ran the application got so many reference error , 
+solved it by renaming the namespace and adding the reference for it 

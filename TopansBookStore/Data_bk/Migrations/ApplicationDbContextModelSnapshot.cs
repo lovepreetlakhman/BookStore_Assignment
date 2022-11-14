@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using System;
-using TopansBookStore.Data;
+using TopansBookStore.DataAccess.Data;
 
 namespace TopansBookStore.Data.Migrations
 {
