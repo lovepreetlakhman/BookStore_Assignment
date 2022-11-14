@@ -18,3 +18,4 @@
 02:21pm - added the dropdown menu ran the application , everything is working 
 02:25pm - created 3 new project names Topansbooks.DataAcess,TopansBooks.Models and TopansBooks.Utility
 02:32pm - moved the data folder into dataccess folder , deleted the migration folder , added the new pakages in the dataAccess folder
+02:36pm - deleted the class1.cs files 
