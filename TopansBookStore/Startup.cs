@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TopansBooks.DataAccess.Repository;
+using TopansBooks.DataAccess.Repository.IRepository;
 using TopansBookStore.DataAccess.Data;
 
 namespace TopansBookStore
@@ -36,8 +38,7 @@ namespace TopansBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
-            services.AddControllersWithViews();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddRazorPages();
         }
 
@@ -65,14 +66,10 @@ namespace TopansBookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapAreaControllerRoute(
-                    name: "Area",
-                    areaName: "Customer",
-                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}") ;
-                endpoints.MapRazorPages();
+                
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
