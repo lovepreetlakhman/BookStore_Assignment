@@ -76,3 +76,30 @@ you need to edit three pages one CategoryControllers.cs to add the delete API fo
 - commit the whole code after making this changes and save the code for next part...
 10:08pm - rebuild the application and run the project
 - End of 2nd part...
+
+24/11/2022
+9:00 Created Model class for coverType
+9:11 inerface for CoverType repository
+9:18 coverType Class implementing CoverTypeRepository
+9:22 Dbset of Cover Type added
+9:27 Connected CoverType Inside UnitOfWork class and interface
+9:33 migration for new CoverType model
+9:37 Added new save method
+9:45 Controller for CoverTypes
+9:57 save method implemented
+10:10 index view for coverType
+10:17 Upsert View for CoverType
+10:21 javascript file for coverType
+10:25 linked cover type in navbar
+10:29 Created products class for models
+10:35 added dbset for products
+10:40 Added migration for new products table
+10:48 Added migration for products validation
+10:52 created ProductRepository interface and its class implementing it
+10:59 inked Product inside of both UnitOfWork files
+11:05 controller for products
+11:12 view model for products
+11:15 installed View featues
+11:20 Completed the controller for producs
+11:25 linked Products index view to navbar
+end of assignment 2 third part 
